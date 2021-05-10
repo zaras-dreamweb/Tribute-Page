@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.intro{
+    text-align: center;
+    background-color: #d6d1d1;
+    border: 1px solid #464343;
+    background-image: radial-gradient(#fefefe ,#afafae );
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.bio p{
+    font-size: 25px;
+    margin: 50px 20px;
+
+}
+
+.bio-img{
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 30px 10px;
+   
+
+}
+
+img{
+    box-shadow: 6px 7px 10px 10px black;
+}
+
+.container{
+    border: 1px solid black;
+}
+
+.sub-container{
+    border: 1px solid black;
+    margin: 10px 10px;
+    background-image: linear-gradient(#fefefe ,#afafae );
+    
+}
+
+.film{
+    border: 1px solid black;
+    margin: 10px 10px;
+}
+
+ul li{
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+
+#footer{
+    background-color: #aca9a9;
+    background-image: linear-gradient(#fefefe ,#afafae );
+    margin: 20px 50px;
+
+}
+
+#footer p{
+    text-align: center;
+    font-size: 30px;
+}
+
+#footer a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #fefefe;
+}
+
+#footer a:hover{
+    color: #9dd6ec;
+}
+
+em{
+    font-weight: bolder;
+}
+
+.try-image{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-image: url(../image/jd.jpg);
+    box-shadow: 1px 2px 10px 5px black;
+    animation: slider 15s infinite linear;
+}
+
+@keyframes slider{
+    0%{ background-image: url(../image/jd.jpg); }
+    35%{ background-image: url(../image/jd2.jpg); }
+    75%{ background-image: url(../image/jd3.jpg); }
+}
+
+
